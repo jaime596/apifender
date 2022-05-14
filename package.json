@@ -4,7 +4,8 @@
   "description": "proyecto fender",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "test": "nodemon app.js",
+    "start": "node app"
   },
   "author": "Jaime Melendez",
   "license": "ISC",
