@@ -16,13 +16,3 @@ module.exports = {
   }
 
 }
-
-
-// exports.getConnection = async function () {
-//   try {
-//     const pool = await sql.connect(sqlConfig)
-//     return pool
-//   } catch (err) {
-//     console.log(err)
-//   }
-// }

@@ -53,7 +53,7 @@ exports.internalNotFound = (message = undefined) => {
     throwError(404, {
         name: 'NOT_FOUND',
         code: 5,
-        message: message || 'No se encontró alguna entidad solicitada (por ejemplo, archivo o directorio',
+        message: message || 'No se encontró alguna entidad solicitada (por ejemplo, archivo o directorio)',
         httpStatus: 404,
     });
 };

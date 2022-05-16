@@ -1,1 +1,5 @@
 exports.getAll = require('./getAll')
+exports.addUser = require('./addUser')
+exports.modUser = require('./modUser')
+exports.deleteUser = require('./deleteUser')
+exports.loginUser = require('./loginUser')

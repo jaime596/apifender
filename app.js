@@ -33,6 +33,8 @@ const defaultRoute = (req, res) => {
 const routes = require('./api-routes')
 const req = require('express/lib/request')
 app.use('/user', routes.users)
+app.use('/character', routes.character)
+
 
 
 app.use(handleError)

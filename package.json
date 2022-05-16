@@ -2,25 +2,29 @@
   "name": "apifender",
   "version": "1.0.0",
   "description": "proyecto fender",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "nodemon app.js",
-    "start": "node app"
+    "start": "node app.js"
   },
   "author": "Jaime Melendez",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
     "bcrypt-nodejs": "^0.0.3",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.0",
     "connect-multiparty": "^2.2.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
     "jwt-simple": "^0.5.6",
     "moment": "^2.29.3",
     "morgan": "^1.10.0",
-    "mssql": "^8.1.0"
+    "mssql": "^8.1.0",
+    "node-fetch": "^3.2.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
