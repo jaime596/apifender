@@ -1,0 +1,1 @@
+exports.getdetail = require('./getPokemon')
